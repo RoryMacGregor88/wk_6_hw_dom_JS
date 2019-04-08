@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>METAL!</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" link="text/css" media="screen" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Metal+Mania|Roboto+Slab" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>Make a metal supergroup!</h1>
+    <div id="div">
+      <form id="form-band-entry">
+        <div class="form-element">
+          <label for="singer" class="primary">Select your most twisted singer!</label>
+          <input id="singer" type="text" />
+        </div>
+
+        <div class="form-element">
+          <label for="singer" class="primary">Select your heaviest guitarist!</label>
+          <input id="guitarist" type="text" />
+        </div>
+
+        <div class="form-element">
+          <label for="singer" class="primary">Select your most brutal bassist!</label>
+          <input id="bassist" type="text" />
+        </div>
+
+        <div class="form-element">
+          <label for="singer" class="primary">Select your gnarliest drummer!</label>
+          <input id="drummer" type="text" />
+        </div>
+
+        <div class="form-element">
+          <label for="venue" class="primary">Select your most metal venue!</label>
+          <select id="venue">
+            <option class="option" value="Woodstock Festival">Death Valley</option>
+            <option class="option" value="Madison Square Garden">Hellfest</option>
+            <option class="option" value="Live Aid">Bloodstock</option>
+            <option class="option" value="Monsters of Rock">Monsters of Rock</option>
+            <option class="option" value="Ozzfest">Ozzfest</option>
+            <option class="option" value="Download Festival">Download Festival</option>
+          </select>
+        </div>
+
+        <div class="form-element">
+          <input class="button" type="submit" value="Make your supergroup!"/>
+        </div>
+
+      </form>
+
+      <button class="button" id="delete-all">Delete all</button>
+
+      <div id="form-result"></div>
+    </div>
+  </body>
+</html>
