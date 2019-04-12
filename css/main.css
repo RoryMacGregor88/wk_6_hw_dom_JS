@@ -4,7 +4,7 @@
 }
 
 body {
-  background: url(https://ak2.picdn.net/shutterstock/videos/10460552/thumb/12.jpg) no-repeat center center fixed;
+  background: url(https://thumbs.gfycat.com/ImaginativeAntiqueBigmouthbass-size_restricted.gif) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,6 +16,12 @@ body {
 #div {
   display: flex;
   justify-content: center;
+}
+
+.metal {
+  font-family: "Metal Mania";
+  font-size: 1.5em;
+  color: #bb0a1e;
 }
 
 h1 {
